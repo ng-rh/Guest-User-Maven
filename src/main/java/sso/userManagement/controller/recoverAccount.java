@@ -49,7 +49,7 @@ public class recoverAccount extends HttpServlet {
                 getServletContext().setAttribute("connPoolInst", cp);
                // cp = ConnectionPool.setDataSource("localhost", "root", "Rhvh@123", "ssoRegisterGuest", 1);//app connection
            
-             cp = ConnectionPool.setDataSource("mysql", "admin", "Sharma@30217", "ssoRegisterGuest", 1);//app connection
+             cp = ConnectionPool.setDataSource("mysql", "admin", "admin", "ssoRegisterGuest", 1);//app connection
            
             
             }
