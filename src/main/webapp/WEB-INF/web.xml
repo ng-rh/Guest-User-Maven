@@ -16,11 +16,11 @@
     <servlet>
         <servlet-name>email_validation</servlet-name>
         <servlet-class>sso.userManagement.controller.email_validation</servlet-class>
-    </servlet>-->
+    </servlet>
     <servlet>
         <servlet-name>forgotPassword</servlet-name>
         <servlet-class>sso.userManagement.controller.forgotPassword</servlet-class>
-    </servlet>
+    </servlet>-->
     <servlet>
         <servlet-name>Logout</servlet-name>
         <servlet-class>sso.userManagement.controller.Logout</servlet-class>
@@ -106,11 +106,12 @@
     <!--<servlet-mapping>
         <servlet-name>email_validation</servlet-name>
         <url-pattern>/email_validation</url-pattern>
-    </servlet-mapping>-->
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>forgotPassword</servlet-name>
         <url-pattern>/forgotPassword</url-pattern>
     </servlet-mapping>
+    -->
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
