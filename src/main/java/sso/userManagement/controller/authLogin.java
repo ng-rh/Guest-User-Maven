@@ -47,7 +47,7 @@ public class authLogin extends HttpServlet {
                 String DATABASE_USER=System.getenv("DATABASE_USER");
                 String DATABASE_PASSWORD=System.getenv("DATABASE_PASSWORD");
                 String DATABASE_NAME=System.getenv("DATABASE_NAME");
-                logger.info("Database parameters are provided Dynamically" + DATABASE_URL + " " + DATABASE_USER + " " + DATABASE_PASSWORD+ " " +DATABASE_NAME );
+                logger.info("Database parameters are provided Dynamically " + DATABASE_URL + " " + DATABASE_USER + " " + DATABASE_PASSWORD+ " " +DATABASE_NAME );
                 cp = ConnectionPool.setDataSource(DATABASE_URL, DATABASE_USER, DATABASE_PASSWORD, DATABASE_NAME, 1);//app connection
             }
 
