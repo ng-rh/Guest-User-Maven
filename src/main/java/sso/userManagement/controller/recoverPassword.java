@@ -42,10 +42,10 @@ public class recoverPassword extends HttpServlet {
                 getServletContext().setAttribute("connPoolInst", cp);
                // cp = ConnectionPool.setDataSource("localhost", "root", "Rhvh@123", "ssoRegisterGuest", 1);//app connection
                 //cp = ConnectionPool.setDataSource("mysql", "admin", "admin", "ssoRegisterGuest", 1);//app connection
-                String Database_URL=System.getProperty("Database_URL");
-                String Database_User=System.getProperty("Database_User");
-                String Database_Password=System.getProperty("Database_Password");
-                String Database_Name=System.getProperty("Database_Name");
+                String Database_URL=System.getenv("Database_URL");
+                String Database_User=System.getenv("Database_User");
+                String Database_Password=System.getenv("Database_Password");
+                String Database_Name=System.getenv("Database_Name");
                 logger.info("Database parameters are provided Dynamically" + Database_URL + " " + Database_User + " " + Database_Password+ " " +Database_Name );
                 cp = ConnectionPool.setDataSource(Database_URL, Database_User, Database_Password, Database_Name, 1);//app connection
             

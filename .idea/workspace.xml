@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1067306e-ac9f-4f74-b6d2-b5220d662962" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/authLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/authLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/recoverPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/recoverPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/verifyEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/verifyEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/authLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/authLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/recoverPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/recoverPassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/signup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/signup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/verifyEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/sso/userManagement/controller/verifyEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/authLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/authLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/recoverPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/recoverPassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/signup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/signup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/verifyEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sso/userManagement/controller/verifyEmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
