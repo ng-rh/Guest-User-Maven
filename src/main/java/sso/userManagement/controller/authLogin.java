@@ -43,12 +43,12 @@ public class authLogin extends HttpServlet {
                //  cp = ConnectionPool.setDataSource("localhost", "root", "Rhvh@123", "ssoRegisterGuest", 1);//app connection
                 //cp = ConnectionPool.setDataSource("mysql", "admin", "admin", "ssoRegisterGuest", 1);//app connection
 
-                String Database_URL=System.getenv("Database_URL");
-                String Database_User=System.getenv("Database_User");
-                String Database_Password=System.getenv("Database_Password");
-                String Database_Name=System.getenv("Database_Name");
-                logger.info("Database parameters are provided Dynamically" + Database_URL + " " + Database_User + " " + Database_Password+ " " +Database_Name );
-                cp = ConnectionPool.setDataSource(Database_URL, Database_User, Database_Password, Database_Name, 1);//app connection
+                String DATABASE_URL=System.getenv("DATABASE_URL");
+                String DATABASE_USER=System.getenv("DATABASE_USER");
+                String DATABASE_PASSWORD=System.getenv("DATABASE_PASSWORD");
+                String DATABASE_NAME=System.getenv("DATABASE_NAME");
+                logger.info("Database parameters are provided Dynamically" + DATABASE_URL + " " + DATABASE_USER + " " + DATABASE_PASSWORD+ " " +DATABASE_NAME );
+                cp = ConnectionPool.setDataSource(DATABASE_URL, DATABASE_USER, DATABASE_PASSWORD, DATABASE_NAME, 1);//app connection
             }
 
            
