@@ -1,16 +1,16 @@
 # Use an official JBoss Web Server image with Tomcat 11 as the base image.
 FROM registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8:latest
 
-ARG DB_HOST=mysql.guser-sso.svc.cluster.local
+ARG DB_HOST=172.30.168.247
 ARG DB_NAME=ssoRegisterGuest
 ARG DB_USER=admin	
 ARG DB_PASSWORD=adminpass
 
 # Set environment variables for the database connection
-ENV Database_URL=$DB_HOST
-ENV Database_Name=$DB_NAME
-ENV Database_User=$DB_USER
-ENV Database_Password=$DB_PASSWORD
+ENV DATABASE_URL=$DB_HOST
+ENV DATABASE_NAME=$DB_NAME
+ENV DATABASE_USER=$DB_USER
+ENV DATABASE_PASSWORD=$DB_PASSWORD
 
 # Switch to a non-root user
 #USER jboss
