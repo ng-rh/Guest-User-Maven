@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1067306e-ac9f-4f74-b6d2-b5220d662962" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/authLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/authLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/recoverPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/recoverPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/verifyEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sso/userManagement/controller/verifyEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/GuestUser/WEB-INF/classes/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +34,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/nehagupta/IdeaProjects/Maven/GuestUser",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
